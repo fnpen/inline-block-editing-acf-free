@@ -1,0 +1,19 @@
+.inline-editing-acf {
+	display: inline-block;
+	outline: none;
+	-webkit-user-select: text;
+	   -moz-user-select: text;
+	        user-select: text;
+	-moz-user-modify: read-write;
+	-webkit-user-modify: read-write;
+	word-wrap: break-word;
+	cursor: text;
+}
+.inline-editing-acf:empty::after {
+		content: '';
+	}
+.inline-editing-acf[data-placeholder]:empty::before {
+		content: attr(data-placeholder);
+		color: #555d66;
+	}
+
