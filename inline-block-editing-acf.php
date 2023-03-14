@@ -10,7 +10,7 @@
  * Author:            Ilya Zolotov
  * Author URI:        https://ilyazolotov.com/
  *
- * Version:           0.3.8
+ * Version:           0.3.9
  * Requires at least: 5.8
  * Tested up to:      6.1.1
  * Requires PHP:      7.1
@@ -26,7 +26,7 @@ define( 'INLINE_BLOCK_EDITING_PATH', \plugin_dir_path( __FILE__ ) );
 define( 'INLINE_BLOCK_EDITING_URL', \plugins_url( '/', __FILE__ ) );
 define( 'INLINE_BLOCK_EDITING_PLUGIN_FILE', __FILE__ );
 define( 'INLINE_BLOCK_EDITING_PLUGIN_DIR', __DIR__ );
-define( 'INLINE_BLOCK_EDITING_VERSION', '0.3.8' );
+define( 'INLINE_BLOCK_EDITING_VERSION', '0.3.9' );
 
 require 'includes/utils/enqueue-scripts-from-asset-file.php';
 require 'includes/integrate.php';
